@@ -536,7 +536,7 @@ inline void Store(uint16_t addr, uint8_t value) {
                 if (fp_type == 1) {
                     fp_bank_idx = bank_idx;
                     fp_bak1 = bank[0x4000];
-                    fp_bak1 = bank[0x4001];
+                    fp_bak2 = bank[0x4001];
                 }
                 fp_step = 3;
                 return;
